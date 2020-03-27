@@ -12,7 +12,7 @@ end
     result[names][attribute] = []
 end
 
-    result[names][attribute] << key.to_s
+    result[names][attribute].push(key.to_s)
 end
 end
 end
